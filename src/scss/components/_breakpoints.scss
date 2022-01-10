@@ -67,7 +67,7 @@ body {
 
 .card {
   @include desktop {
-    width: min(80%, 120em);
+    width: min(85%, 120em);
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
