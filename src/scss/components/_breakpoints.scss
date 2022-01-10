@@ -1,0 +1,49 @@
+@use '../abstracts/variables' as var;
+
+@mixin mobile {
+  @media (min-width: var.$mobile) {
+    @content;
+  }
+}
+
+@mixin mobilemax {
+  @media (max-width: var.$mobile) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: var.$tablet) {
+    @content;
+  }
+}
+
+@mixin tabletmax {
+  @media (max-width: var.$tablet) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: var.$desktop) {
+    @content;
+  }
+}
+
+@mixin desktopmax {
+  @media (max-width: var.$desktop) {
+    @content;
+  }
+}
+
+.container {
+  @include mobilemax {
+    margin-top: 2em;
+  }
+  @include tabletmax {
+    margin-top: 2em;
+  }
+  @include desktopmax {
+    margin-top: 2em;
+  }
+}

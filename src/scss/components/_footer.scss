@@ -1,0 +1,30 @@
+@use '../abstracts/colors';
+@use '../abstracts/fonts';
+
+footer {
+  width: 100%;
+  margin-top: 5em;
+  font-size: calc(fonts.$font-size - 2px);
+  text-align: center;
+
+  & p {
+    color: colors.$neutral-dark-blue;
+
+    &::selection {
+      background-color: colors.$primary-orange;
+    }
+
+    & a {
+    color: colors.$primary-red;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+    &::selection {
+      background-color: colors.$primary-orange;
+    }
+  }
+  }
+}

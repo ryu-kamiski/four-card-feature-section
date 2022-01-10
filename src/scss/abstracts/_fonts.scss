@@ -1,0 +1,18 @@
+// ! Import Font family here 
+$font-size: 15px;
+$font-family: 'Poppins', sans-serif;
+$font-weight: (
+  thin: 200,
+  normal: 400,
+  bold: 600
+);
+
+@function weight($weight-name) {
+  @return map-get($font-weight, $weight-name);
+}
+
+body {
+  font-size: $font-size;
+  font-family: $font-family;
+}
+

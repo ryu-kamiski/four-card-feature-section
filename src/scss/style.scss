@@ -1,0 +1,26 @@
+// Stylesheets imported
+@use 'globals';
+@use 'abstracts';
+@use 'components';
+
+
+
+
+.content {
+  text-align: center;
+
+  & p {
+    width: min(75%, 33.5em);
+    margin: auto;
+  }
+
+  & .content__heading {
+    margin-bottom: min(24px, 1.73em);
+    & .content-txt-thin {
+      font-weight: abstracts.weight(thin);
+    }
+    & .content-txt-bold {
+      font-weight: abstracts.weight(bold);
+    }
+  }
+}
