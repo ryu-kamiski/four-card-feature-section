@@ -18,5 +18,11 @@
   "homepage": "https://github.com/ryu-kamiski/four-card-feature-section#readme",
   "dependencies": {
     "modern-css-reset": "^1.4.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.47.0"
   }
 }
