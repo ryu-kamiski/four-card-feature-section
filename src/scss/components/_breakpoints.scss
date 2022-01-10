@@ -39,7 +39,7 @@
 
 body {
   @include tablet {
-    font-size: calc(fonts.$font-size + 2px);
+    font-size: calc(fonts.$font-size + 1px);
   }
 
   @include desktop {
