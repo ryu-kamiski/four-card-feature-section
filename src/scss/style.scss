@@ -12,6 +12,7 @@
   & p {
     width: min(75%, 33.5em);
     margin: auto;
+    font-size: calc(abstracts.$font-size - 1px);
     color: abstracts.$neutral-grayish-blue;
   }
 
@@ -19,9 +20,11 @@
     margin-bottom: min(24px, 1.73em);
     & .content-txt-thin {
       font-weight: abstracts.weight(thin);
+      font-size: calc(abstracts.$font-size + 1em);
     }
     & .content-txt-bold {
       font-weight: abstracts.weight(bold);
+      font-size: calc(abstracts.$font-size + 1em);
     }
   }
 }

@@ -133,6 +133,7 @@ footer p a::selection {
 }
 .card .card__content p {
   font-weight: weight(normal);
+  font-size: 14px;
   color: #a3a5ae;
 }
 .card .card__content .icon {
@@ -203,6 +204,7 @@ footer p a::selection {
 .content p {
   width: min(75%, 33.5em);
   margin: auto;
+  font-size: 14px;
   color: #a3a5ae;
 }
 .content .content__heading {
@@ -210,9 +212,11 @@ footer p a::selection {
 }
 .content .content__heading .content-txt-thin {
   font-weight: 200;
+  font-size: calc(15px + 1em);
 }
 .content .content__heading .content-txt-bold {
   font-weight: 600;
+  font-size: calc(15px + 1em);
 }
 
 /*# sourceMappingURL=style.css.map */
