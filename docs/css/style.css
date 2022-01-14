@@ -128,11 +128,13 @@ footer p a::selection {
   overflow: hidden;
   box-shadow: 4px 8px 25px #d2d4e0;
 }
-.card .card__content h2 {
-  font-weight: weight(bold);
+.card .card__content h3 {
+  color: #4c4e61;
+  font-size: calc(15px + 0.45em);
+  font-weight: 600;
 }
 .card .card__content p {
-  font-weight: weight(normal);
+  font-weight: 400;
   font-size: 14px;
   color: #a3a5ae;
 }
@@ -146,7 +148,7 @@ footer p a::selection {
 
 @media (min-width: 67em) {
   body {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 @media (min-width: 89em) {
@@ -204,7 +206,7 @@ footer p a::selection {
 .content p {
   width: min(75%, 33.5em);
   margin: auto;
-  font-size: 14px;
+  font-size: 17px;
   color: #a3a5ae;
 }
 .content .content__heading {
@@ -215,6 +217,7 @@ footer p a::selection {
   font-size: calc(15px + 1em);
 }
 .content .content__heading .content-txt-bold {
+  color: #4c4e61;
   font-weight: 600;
   font-size: calc(15px + 1em);
 }

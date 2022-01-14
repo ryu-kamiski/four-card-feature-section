@@ -32,7 +32,7 @@
   & .card__content:last-child:before {
     background-color: colors.$primary-blue;
   }
-  
+
   & .card__content {
     width: min(80%, 23.3em);
     margin: auto;
@@ -41,14 +41,16 @@
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 4px 8px 25px #d2d4e0;
-    
 
-    & h2 {
-      font-weight: weight(bold);
+
+    & h3 {
+      color: colors.$neutral-dark-blue;
+      font-size: calc(fonts.$font-size + .45em);
+      font-weight: fonts.weight(bold);
     }
 
     & p {
-      font-weight: weight(normal);
+      font-weight: fonts.weight(normal);
       font-size: calc(fonts.$font-size - 1px);
       color: colors.$neutral-grayish-blue;
     }
